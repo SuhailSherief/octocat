@@ -1,7 +1,7 @@
 const discord = require("discord.js"),
 client = new discord.Client();
 const Github = require("gitcord")
-const github = new Github("SuhailSherief")
+const github = new Github("SuhailSherief", { token: "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", gitall: true })
 github.setup()
 
 github.on('newEvent', (embed) => {
