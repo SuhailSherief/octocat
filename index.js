@@ -5,7 +5,7 @@ const github = new Github("SuhailSherief", { token: "ghp_0JpPFt8bxr20SmkEUcMdFWh
 github.setup()
 
 github.on('newEvent', (embed) => {
-client.channels.cache.get("797494030761328645").send({ embed })
+client.channels.cache.get("855889382589988926").send({ embed })
 })
 
 client.on("ready", () => {
